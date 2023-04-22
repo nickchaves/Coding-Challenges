@@ -8,7 +8,9 @@
 // [1, 1, 2] ==> 2
 // [17, 17, 3, 17, 17, 17, 17] ==> 3
 
+
+// testing testing
+
 // My solution 
 const stray = nums => nums.reduce((a, b) => a ^ b)
 
-//
