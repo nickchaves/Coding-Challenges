@@ -17,7 +17,7 @@
 
 // My solution
 function gimme (triplet) {
-    return triplet.indexOf(triplet.slice().sort(function(a,b) { return a-b; })[1]);
+    return triplet.indexOf(triplet.slice().sort((a,b) => a - b)[1]);
 }
 
 console.log(gimme([2, 3, 1]))
